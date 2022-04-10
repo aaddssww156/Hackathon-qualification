@@ -1,6 +1,8 @@
 # Hackathon-qualification
 Floppa hackathon qualification app
 
+![pic1](11111.jpg) ![pic2](22222.jpg)
+
 # Android
 Стек:
 - Для http соединения с сервером использовались retrofit+okhttp3+coroutines+gson
