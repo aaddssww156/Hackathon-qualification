@@ -1,7 +1,19 @@
 # Hackathon-qualification
-Floppers hackathon qualification app
-test commit #2
+Floppa hackathon qualification app
 
+# Android
+Стек:
+- Для http соединения с сервером использовались retrofit+okhttp3+coroutines+gson
+- Для отрисовки графиков использовалась библиотека [AAChartModel](https://github.com/AAChartModel/AAChartCore-Kotlin)
+
+Как использовать:
+- Запустите backend сервер по инструкции ниже. Без этих шагов приложение не будет работать!
+- Создайте два устройства (1 - temperature, 2 - lights)
+- Temperature - датчик температуры в офисе
+- Lights - датчик освещенности офиса
+- После создания устройств, добавьте им записей (через swagger, описано ниже)
+- Измените свой baseURL в файле RetrofitHelper на ip адрес, по которому запущен сервер
+- Когда тестовые устройства и данные будут добавлены, а сервер запущен, то смело запускайте приложение - оно вам понравится!
 
 # Backend
 Стек:
