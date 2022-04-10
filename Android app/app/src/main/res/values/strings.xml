@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Qualification</string>
+    <string name="greeting_text">
+        Hello!
+        This is our qualification project to a Online Hackaton beCoder!
+        You can try out our app simply by tapping one of the buttons below
+        So, just do it!
+    </string>
 </resources>
