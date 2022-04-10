@@ -6,4 +6,31 @@
     android:layout_height="match_parent"
     tools:context=".LightActivity">
 
+    <TextView
+        android:id="@+id/LightsMainLable"
+        android:layout_width="229dp"
+        android:layout_height="54dp"
+        android:text="@string/lights"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <com.github.aachartmodel.aainfographics.aachartcreator.AAChartView
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="630dp"
+        android:fadingEdge="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </com.github.aachartmodel.aainfographics.aachartcreator.AAChartView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

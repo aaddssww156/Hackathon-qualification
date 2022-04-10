@@ -6,4 +6,6 @@
         You can try out our app simply by tapping one of the buttons below
         So, just do it!
     </string>
+    <string name="lights">Lights</string>
+    <string name="temperature">Temperature</string>
 </resources>
